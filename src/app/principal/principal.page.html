@@ -1,0 +1,55 @@
+<ion-content  class="ion-padding">
+  <h1 class="titulo-personalizado">Bienvenido</h1>
+  <ion-button expand="block" shape="round" size="small" [routerLink]="['/home']">Cerrar Sesion</ion-button>
+
+  <div id="container">
+    <ion-card>
+      <ion-card-content> 
+        <ion-card>
+          <img alt="Silhouette of mountains" src="https://www.educaciontrespuntocero.com/wp-content/uploads/2017/09/foto_destacada_asistencia_aula.jpg.webp" />
+          <ion-card-header>
+            <ion-card-title>Control de Asistencia</ion-card-title>
+          </ion-card-header>
+          <ion-button expand="block" shape="round" color="dark" [routerLink]="['/asistencia']">Ingresar</ion-button>
+        </ion-card>
+
+        <ion-card>
+          <img alt="Silhouette of mountains" src="https://previews.123rf.com/images/yupiramos/yupiramos1607/yupiramos160706514/59684059-concepto-de-blog-e-internet-representado-por-dibujos-animados-con-su-dise%C3%B1o-de-port%C3%A1til-ilustraci%C3%B3n.jpg" />
+          <ion-card-header>
+            <ion-card-title >Registrar Bitacora</ion-card-title>
+          </ion-card-header>
+          <ion-button expand="block" shape="round" color="dark" [routerLink]="['/bitacora']">Ingresar</ion-button>
+        </ion-card>
+
+
+      </ion-card-content>
+    </ion-card>
+
+
+  </div>
+ 
+</ion-content>
+<ion-card-content>
+  <ion-tabs>
+    <ion-tab-bar slot="bottom">
+      <ion-tab-button tab="home">
+        <ion-icon name="cog-outline"></ion-icon>
+        Configuracion
+      </ion-tab-button>
+      <ion-tab-button tab="radio">
+        <ion-icon name="person-circle-outline"></ion-icon>
+        Mi Perfil
+      </ion-tab-button>
+      <ion-tab-button tab="library">
+        <ion-icon name="mail-outline"></ion-icon>
+        Mensaje
+      </ion-tab-button>
+      <ion-tab-button tab="search">
+        <ion-icon name="search"></ion-icon>
+        Buscar
+      </ion-tab-button>
+    </ion-tab-bar>
+  </ion-tabs>
+</ion-card-content>
+
+

@@ -1,0 +1,29 @@
+.titulo-personalizado {
+    font-family: 'TuFuente', segoeui; /* Reemplaza 'TuFuente' con el nombre de tu fuente */
+  }
+
+  
+.titulo-personalizado {
+    font-size: 24px;
+    text-align: center;
+    color: #fff; 
+    margin-top: 20px;
+}
+  
+  ion-card {
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+    margin: 20px;
+}
+  
+  ion-button {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}  
+
+ion-content {
+  --background: transparent;
+  --background: url('../../assets/imagen/fondoAsis.png') no-repeat center center/cover;
+}  

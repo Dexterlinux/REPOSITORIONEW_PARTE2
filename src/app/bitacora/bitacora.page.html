@@ -1,0 +1,57 @@
+<ion-content class="ion-padding">
+  <h1 class="titulo-personalizado">Bitacora</h1>
+  <ion-button expand="block" shape="round" size="small" [routerLink]="['/principal']">Volver</ion-button>
+
+  <div id="container">
+    <ion-card>
+      <ion-card-content> 
+        <ion-list>
+          <ion-item>
+            <ion-select aria-label="apl" placeholder="Seleccione Curso">
+              <ion-select-option value="kinder">Kinder° Basico</ion-select-option>
+              <ion-select-option value="1">1° Basico</ion-select-option>
+              <ion-select-option value="2">2° Basico</ion-select-option>
+              <ion-select-option value="3">3° Basico</ion-select-option>
+              <ion-select-option value="4">4° Basico</ion-select-option>
+              <ion-select-option value="5">5° Basico</ion-select-option>
+              <ion-select-option value="6">6° Basico</ion-select-option>
+              <ion-select-option value="7">7° Basico</ion-select-option>
+              <ion-select-option value="8">8° Basico</ion-select-option>
+            </ion-select>
+          </ion-item>
+        </ion-list><br>
+
+        <ion-list>
+          <ion-item>
+            <ion-select aria-label="apl" placeholder="Seleccione Curso">
+              <ion-select-option value="A">A</ion-select-option>
+              <ion-select-option value="B">B</ion-select-option>
+              <ion-select-option value="C">C</ion-select-option>
+              <ion-select-option value="D">D</ion-select-option>
+            </ion-select>
+          </ion-item>
+        </ion-list><br>
+
+        <ion-list>
+          <ion-item>
+            <ion-select aria-label="apl" placeholder="Seleccione Materia">
+              <ion-select-option value="Lenguaje">Lenguaje</ion-select-option>
+              <ion-select-option value="Matematicas">Matematicas</ion-select-option>
+              <ion-select-option value="Ingles">Ingles</ion-select-option>
+              <ion-select-option value="Ciencias">Ciencias</ion-select-option>
+              <ion-select-option value="Musica">Musica</ion-select-option>
+              <ion-select-option value="Tecnologia">Tecnologia</ion-select-option>
+            </ion-select>
+          </ion-item>
+        </ion-list><br>
+        <ion-datetime></ion-datetime>
+
+        <ion-button expand="block" shape="round" color="dark" [routerLink]="['/bitacorasiguiente']">Siguiente</ion-button>
+        
+      </ion-card-content>
+    </ion-card>
+
+
+  </div>
+ 
+</ion-content>

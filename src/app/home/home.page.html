@@ -1,0 +1,41 @@
+
+
+<ion-content>
+
+  <div id="container">
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>RegistrAPP</ion-card-title><br>
+        <ion-avatar id="icono">
+          <img alt="colegio"
+            src="https://png.pngtree.com/png-clipart/20210530/original/pngtree-shape-green-orange-back-to-school-png-image_6363801.jpg" />
+        </ion-avatar><br>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-list>
+          <ion-item>
+            <ion-input label="Nombre Usuario" labelPlacement="floating" placeholder="Ingrese nombre usuario"
+              [(ngModel)]="user.usuario">
+            </ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-input label="Contraseña" labelPlacement="floating" placeholder="Ingrese contraseña" type="password"
+              [(ngModel)]="user.password">
+            </ion-input>
+
+          </ion-item><br>
+          <ion-label>Recordar Contraseña</ion-label>
+                <ion-toggle [(ngModel)]="recordarContrasena"></ion-toggle>
+          <ion-button shape="round" size="small" [routerLink]="['/registroalumnobase']">Registrar Alumno</ion-button><br>
+          <ion-button shape="round" size="small" [routerLink]="['/pagmaqueta']">Iniciar Sesion</ion-button><br>
+
+
+        </ion-list>
+      </ion-card-content>
+    </ion-card>
+
+
+  </div>
+  <ion-alert trigger="alerta" header="Ingreso de Usuario" subHeader="{{campo}}" message=""
+    [buttons]="alertButtons"></ion-alert>
+</ion-content>

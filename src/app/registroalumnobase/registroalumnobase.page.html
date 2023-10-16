@@ -1,0 +1,53 @@
+<ion-content  class="ion-padding">
+  <h1>Bienvenido</h1>
+  <br>
+  <br>
+  
+  <div id="container">
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title></ion-card-title><br>
+      </ion-card-header>
+      <ion-card-content> 
+        <ion-list>
+        
+          <ion-item>
+            <ion-input label="Nombre" placeholder="Escriba su Nombre"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-input label="Apellido" placeholder="Escriba su appelido"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-input label="Gmail" placeholder="Escriba su Gmail"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-input label="Direccion" placeholder="Escriba su Direccion"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-input label="Edad" placeholder="Escriba su Edad"></ion-input>
+          </ion-item>
+
+          <ion-list>
+            <ion-item >
+              <ion-select  placeholder="Seleccione Genero">
+                <ion-select-option value="apple">Hombre</ion-select-option>
+                <ion-select-option value="banana">Mujer</ion-select-option>
+                <ion-select-option value="orange">Prefiero no decirlo</ion-select-option>
+              </ion-select>
+            </ion-item>
+          </ion-list>
+          <ion-button shape="round" size="small" [routerLink]="['/home']">Volver</ion-button><br>
+          <ion-button shape="round" size="small" [routerLink]="['/pagmaqueta']">Aceptar</ion-button><br>
+
+
+      
+        </ion-list>
+
+
+      </ion-card-content>
+    </ion-card>
+
+
+  </div>
+ 
+</ion-content>

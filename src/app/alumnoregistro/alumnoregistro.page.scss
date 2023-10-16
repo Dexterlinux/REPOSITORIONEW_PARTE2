@@ -1,0 +1,43 @@
+.titulo-personalizado {
+    font-family: 'TuFuente', segoeui; /* Reemplaza 'TuFuente' con el nombre de tu fuente */
+  }
+
+  ion-content {
+    --background: transparent;
+    --background: url('../../assets/imagen/fondo8.jpg') no-repeat center center/cover;
+  }    
+
+// Variables de colores
+$color-primario: #584f42b7; // Color principal
+$color-fondo: #f1f1f12a;    // Color de fondo
+$color-borde: #e0e0e04c;    // Color de borde
+$color-boton: #1a241e5e;    // Color del botón
+
+// Estilos generales
+body {
+  background-color: $color-fondo;
+  font-family: Arial, sans-serif;
+}
+
+// Estilos para los botones
+.button {
+  background-color: $color-boton;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: darken($color-boton, 10%);
+  }
+}
+
+// Estilos para los elementos con bordes
+.bordered-element {
+  border: 2px solid $color-borde;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}

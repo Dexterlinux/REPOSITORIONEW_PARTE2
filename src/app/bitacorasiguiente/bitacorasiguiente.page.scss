@@ -1,0 +1,8 @@
+/* En el archivo de estilos de tu componente o página específica */
+.titulo-personalizado {
+    font-family: 'TuFuente', segoeui; /* Reemplaza 'TuFuente' con el nombre de tu fuente */
+  }
+ion-content {
+    --background: transparent;
+    --background: url('../../assets/imagen/bitacora2.jpg') no-repeat center center/cover;
+  }

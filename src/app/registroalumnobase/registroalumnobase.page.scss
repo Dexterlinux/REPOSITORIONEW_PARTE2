@@ -1,0 +1,50 @@
+
+ion-content {
+    background-color: #afd622; // Color de fondo del contenido
+  }
+  
+  ion-card {
+    background-color: #bd8b8ba4; // Fondo del card
+    border-radius: 10px; // Bordes redondeados
+    box-shadow: 0 4px 6px rgba(63, 166, 179, 0.639); // Sombra suave
+    margin: 20px;
+  }
+  
+  ion-card-header {
+    background-color: #007bff; // Color de fondo del encabezado del card
+    color: #ffffff3f; // Color de texto del encabezado
+  }
+  
+  ion-card-title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  // Estilos para los campos de entrada
+  ion-item {
+    margin-bottom: 20px;
+  }
+  
+  ion-label {
+    font-weight: bold;
+  }
+  
+  ion-input {
+    border: 2px solid #27a5d7fa; // Borde del campo de entrada
+    border-radius: 5px; // Bordes redondeados
+    padding: 10px;
+  }
+  
+  // Estilo para el botón de enviar
+  ion-button {
+    --border-radius: 5px; // Bordes redondeados del botón
+    margin-top: 20px;
+    width: 100%;
+    background-color: #007bff; 
+    color: #000000; 
+  }
+  
+  ion-content {
+    --background: transparent;
+    --background: url('../../assets/imagen/bitacora.jpg') no-repeat center center/cover;
+  }  

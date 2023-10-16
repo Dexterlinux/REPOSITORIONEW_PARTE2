@@ -1,0 +1,30 @@
+
+.titulo-personalizado {
+    font-family: 'TuFuente', segoeui; /* Reemplaza 'TuFuente' con el nombre de tu fuente */
+  }
+
+  ion-content {
+    --background: transparent;
+    --background: url('../../assets/imagen/imagen5.jpg') no-repeat center center/cover;
+  }
+
+.titulo-personalizado {
+    font-size: 24px;
+    text-align: center;
+    color: #fff; 
+    margin-top: 20px;
+  }
+  
+  ion-card {
+    background-color: rgba(255, 255, 255, 0.708); 
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(201, 174, 174, 0.114); 
+    margin: 20px;
+  }
+  
+  ion-button {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
